@@ -6,3 +6,25 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* border-box는 더 이상 패딩이나 마진으로 인해서 컨텐츠의 크기가 늘어나지 않게 해주는 속성이다 */
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.header{
+    height:95vh;
+    background-image: linear-gradient(to right#7ed56f, #28b485) , url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+}
